@@ -23,5 +23,8 @@ do
     echo>>$logs
 done
 
+echo "git自动保存token"
+git config --global credential.helper store
+
 echo "所有软件已安装完成！"
 
